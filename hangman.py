@@ -55,7 +55,6 @@ word_list = ["gay", "lesbian", "bisexual", "transgender", "queer", "nonbinary", 
 random_word = random.choice(word_list)
 word_dashes = "_" * len(random_word)
 word_guesses = list(word_dashes)
-word_length = len(random_word)
 
 #The introduction to the game.
 print("Hello player! Welcome to a basic hangman game!")
